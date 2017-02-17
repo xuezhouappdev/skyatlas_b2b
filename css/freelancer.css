@@ -18,7 +18,7 @@ a:hover,
 a:focus,
 a:active,
 a.active {
-  color: #18BC9C;
+  color: #0abab5;
   outline: none;
 }
 h1,
@@ -54,7 +54,7 @@ hr.star-light {
   border-color: white;
 }
 hr.star-light:after {
-  background-color: #18BC9C;
+  background-color: #0abab5;
   color: white;
 }
 hr.star-primary {
@@ -69,7 +69,7 @@ hr.star-primary:after {
 }
 header {
   text-align: center;
-  background: #18BC9C;
+  background: #0abab5;
   color: white;
 }
 header .container {
@@ -129,7 +129,7 @@ header .intro-text .skills {
   color: white;
 }
 .navbar-custom .navbar-nav li a:hover {
-  color: #18BC9C;
+  color: #0abab5;
   outline: none;
 }
 .navbar-custom .navbar-nav li a:focus,
@@ -138,13 +138,13 @@ header .intro-text .skills {
 }
 .navbar-custom .navbar-nav li.active a {
   color: white;
-  background: #18BC9C;
+  background: #0abab5;
 }
 .navbar-custom .navbar-nav li.active a:hover,
 .navbar-custom .navbar-nav li.active a:focus,
 .navbar-custom .navbar-nav li.active a:active {
   color: white;
-  background: #18BC9C;
+  background: #0abab5;
 }
 .navbar-custom .navbar-toggle {
   color: white;
@@ -154,9 +154,9 @@ header .intro-text .skills {
 }
 .navbar-custom .navbar-toggle:hover,
 .navbar-custom .navbar-toggle:focus {
-  background-color: #18BC9C;
+  background-color: #0abab5;
   color: white;
-  border-color: #18BC9C;
+  border-color: #0abab5;
 }
 @media (min-width: 768px) {
   .navbar-custom {
@@ -179,14 +179,22 @@ header .intro-text .skills {
   }
 }
 section {
-  padding: 100px 0;
+  padding: 40px 0 ;
 }
 section h2 {
   margin: 0;
   font-size: 3em;
 }
+
+section hr:nth-child(2){
+ margin-bottom: 100px;
+}
+
+
+
+
 section.success {
-  background: #18BC9C;
+  background: #0abab5;
   color: white;
 }
 @media (max-width: 767px) {
@@ -208,7 +216,7 @@ section.success {
   margin: 0 auto;
 }
 #portfolio .portfolio-item .portfolio-link .caption {
-  background: rgba(24, 188, 156, 0.9);
+  background: #0abab5;
   position: absolute;
   width: 100%;
   height: 100%;
@@ -240,6 +248,9 @@ section.success {
 #portfolio * {
   z-index: 2;
 }
+
+
+
 @media (min-width: 767px) {
   #portfolio .portfolio-item {
     margin: 0 0 30px;
@@ -289,7 +300,7 @@ section.success {
   opacity: 1;
 }
 .floating-label-form-group-with-focus label {
-  color: #18BC9C;
+  color: #0abab5;
 }
 form .row:first-child .floating-label-form-group {
   border-top: 1px solid #eeeeee;
@@ -323,7 +334,7 @@ footer .footer-below {
 .btn-outline:focus,
 .btn-outline:active,
 .btn-outline.active {
-  color: #18BC9C;
+  color: #0abab5;
   background: white;
   border: solid 2px white;
 }
@@ -371,8 +382,8 @@ fieldset[disabled] .btn-primary.active {
 }
 .btn-success {
   color: white;
-  background-color: #18BC9C;
-  border-color: #18BC9C;
+  background-color: #0abab5;
+  border-color: #0abab5;
   font-weight: 700;
 }
 .btn-success:hover,
@@ -404,11 +415,11 @@ fieldset[disabled] .btn-success:active,
 .btn-success.disabled.active,
 .btn-success[disabled].active,
 fieldset[disabled] .btn-success.active {
-  background-color: #18BC9C;
-  border-color: #18BC9C;
+  background-color: #0abab5;
+  border-color: #0abab5;
 }
 .btn-success .badge {
-  color: #18BC9C;
+  color: #0abab5;
   background-color: white;
 }
 .btn-social {
@@ -503,3 +514,57 @@ fieldset[disabled] .btn-success.active {
   opacity: 0;
   display: none;
 }
+
+
+/*service */
+#service i {
+  font-size: 80px;
+  margin: 0 auto 20px;
+  color:#0abab5;
+
+}
+
+#service p {
+  font-size: 14px;
+  margin: 0 auto;
+}
+
+
+
+#service >.container>.row>.feature {
+  text-align: center;
+}
+
+#about p{
+  font-size: 16px;
+}
+
+
+ .footer-above>.container>.row> .col-md-6:nth-child(4) {
+  padding-bottom: 0px;
+  text-align: left;
+}
+
+
+ /*Map */
+/* map div */
+
+#map {
+  height: 240px;
+  width: 100%;
+}
+
+
+div.row.map-title {
+  margin: 40px auto;
+}
+
+div.map {
+  margin-bottom: 100px;
+}
+
+
+section {
+  margin: 50px 0 0;
+}
+

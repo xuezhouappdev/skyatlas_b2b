@@ -22,7 +22,7 @@ a:hover {
 
 body{
     border-top:0;
-   
+
 
 }
 
@@ -59,6 +59,7 @@ ul.thumbnails {
 
 .caption p {  
     color: #999;
+    font-size: 14px;
 }
 
 

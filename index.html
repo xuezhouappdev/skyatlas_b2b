@@ -107,7 +107,7 @@
 
 
     <!-- Service -->
-    <section id="service">
+    <section id="service" >
         <div class="container">
 
             <div class="row">
@@ -117,7 +117,7 @@
                 </div>
             </div>
 
-            <div class="row">
+            <div class="row service">
                 <div class="col-md-3 feature">
                     <i class="fa fa-plane" aria-hidden="true"></i>
                     <h3 style="margin-top: 20px">Themed Travel Packages</h3>
@@ -864,6 +864,23 @@
     </script>
 
     <script src="js/contact_map.js"></script>
+
+    <!-- control appearance -->
+    <script>
+
+        var servicesec = $('.service');
+        $(window).on('scroll',function(){
+           var st = $(this).scrollTop();
+            servicesec.css({
+                'opacity': (st-400)/300
+            })
+
+        });
+
+
+
+    </script>
+
 
 
 </body>

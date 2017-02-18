@@ -146,6 +146,7 @@ header .intro-text .skills {
 }
 .navbar-custom .navbar-nav {
   letter-spacing: 1px;
+  font-size: 20px;
 }
 .navbar-custom .navbar-nav li a {
   color: white;
@@ -182,7 +183,7 @@ header .intro-text .skills {
 }
 @media (min-width: 768px) {
   .navbar-custom {
-    padding: 25px 0;
+    padding: 10px 0;
     -webkit-transition: padding 0.3s;
     -moz-transition: padding 0.3s;
     transition: padding 0.3s;
@@ -565,6 +566,7 @@ fieldset[disabled] .btn-success.active {
  .footer-above>.container>.row> .col-md-6:nth-child(4) {
   padding-bottom: 0px;
   text-align: left;
+  padding-left: 90px;
 }
 
 
@@ -574,6 +576,7 @@ fieldset[disabled] .btn-success.active {
 #map {
   height: 240px;
   width: 100%;
+
 
 }
 
@@ -611,7 +614,7 @@ video {
   object-fit: contain;
   width: 100%;
   height:auto;
-  padding-top: 100px;
+  padding-top: 10px;
 }
 
 .header-container {

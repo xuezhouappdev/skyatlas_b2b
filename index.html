@@ -33,6 +33,16 @@
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
 
+
+    <!-- jQuery -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+
 </head>
 
 <body id="page-top" class="index">
@@ -541,8 +551,12 @@
                     <br>
                     <br>
                     <div class="col-md-6">
-                        <div id="map" ></div>
 
+                        <div id="map"></div>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
 
                     </div>
 
@@ -586,6 +600,12 @@
                 </div>
             </div>
         </div>
+
+
+
+
+
+
     </footer>
 
     <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
@@ -598,7 +618,7 @@
 
 
     <!-- Portfolio Modals -->
-    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+   <!-- <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-content">
             <div class="close-modal" data-dismiss="modal">
                 <div class="lr">
@@ -823,15 +843,10 @@
 
 
 
+-->
 
-    <!-- jQuery -->
-    <script src="vendor/jquery/jquery.min.js"></script>
 
-    <!-- Bootstrap Core JavaScript -->
-    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
 
-    <!-- Plugin JavaScript -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
 
     <!-- Contact Form JavaScript -->
     <script src="js/jqBootstrapValidation.js"></script>
@@ -844,7 +859,10 @@
     <script src="js/slider.js"></script>
 
     <!-- Google Map -->
-    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC96KfrcUnSU3SLhTOF1-_8U3WS40hACsQ&sensor=false"></script>
+    <script async defer
+            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBbN51mWnY8DuZ7EOiSl_u-1dznY-i2gfc&callback=initMap">
+    </script>
+
     <script src="js/contact_map.js"></script>
 
 

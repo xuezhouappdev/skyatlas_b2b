@@ -126,7 +126,7 @@ header .intro-text .skills {
   }
 }
 .navbar-custom {
-  background: #2C3E50;
+  background: #3D4855;
   font-family: 'ProximaNova-Bold', sans-serif;
   text-transform: uppercase;
   font-weight: 800;
@@ -336,14 +336,14 @@ footer h3 {
 }
 footer .footer-above {
   padding-top: 50px;
-  background-color: #2C3E50;
+  background-color: #6A7E94;
 }
 footer .footer-col {
   margin-bottom: 50px;
 }
 footer .footer-below {
   padding: 25px 0;
-  background-color: #233140;
+  background-color: #3D4855;
 }
 .btn-outline {
   color: white;

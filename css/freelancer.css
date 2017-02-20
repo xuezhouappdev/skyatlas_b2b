@@ -127,7 +127,7 @@ header .intro-text .skills {
 }
 .navbar-custom {
   background: #3D4855;
-  font-family: 'ProximaNova-Bold', sans-serif;
+  font-family: 'ProximaNova-Light', sans-serif;
   text-transform: uppercase;
   font-weight: 800;
   border: none;
@@ -486,7 +486,7 @@ fieldset[disabled] .btn-success.active {
   border: none;
   min-height: 100%;
   padding: 100px 0;
-  text-align: left;
+  text-align:justify;
 }
 .portfolio-modal .modal-content h2 {
   margin: 0;
@@ -651,6 +651,7 @@ video {
   text-align: justify;
 
 }
+
 
 
 .modal-content .container .btn button {

@@ -486,11 +486,12 @@ fieldset[disabled] .btn-success.active {
   border: none;
   min-height: 100%;
   padding: 100px 0;
-  text-align: center;
+  text-align: left;
 }
 .portfolio-modal .modal-content h2 {
   margin: 0;
   font-size: 3em;
+  text-align: center;
 }
 .portfolio-modal .modal-content img {
   margin-bottom: 30px;
@@ -645,6 +646,16 @@ video {
 
 
 
+/**/
+.modal-content .container ul li {
+  text-align: justify;
+
+}
+
+
+.modal-content .container .btn button {
+  text-align: center;
+}
 
 
 

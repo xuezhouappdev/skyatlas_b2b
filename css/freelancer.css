@@ -603,7 +603,7 @@ section {
 /*video*/
 .video-container {
   width: 100%;
-  height: 720px;
+  height: 100vh;
   position: absolute;
   top:0%;
   left:0%;
@@ -623,7 +623,7 @@ video {
 
 .header-container {
   width: 100%;
-  height: 720px;
+  min-height: 100vh;
   border-left: none;
   border-right: none;
   
@@ -665,5 +665,70 @@ video {
 
 .modal-content .container a{
 
+}
+
+
+@media (max-width: 767px) {
+  #header > div > div.row.header-text {
+    display: none;
+  }
+
+  #logo {
+
+    margin-top: 18px;
+    width: 180px;
+    margin-left: 20px;
+  }
+
+  .video-container {
+    top:5%;
+    max-height: 500px;
+  }
+
+  .header-container {
+
+    min-height: 30vh;
+
+  }
+
+  #service i {
+    margin-top: 20px;
+  }
+
+
+  #service {
+    margin-top: 250px;
+  }
+
+  #myCarousel .thumbnail img {
+    width: 70%;
+  }
+
+  #slider ul.thumbnails {
+    padding-left: 0;
+  }
+
+
+  #myCarousel > div ul.thumbnails {
+    padding-left: 0;
+  }
+
+
+  #contact > div.footer-above > div > div > div:nth-child(4) {
+    padding-left: 15px;
+    text-align: center;
+  }
+
+
+}
+
+@media (max-width:1200px ) {
+  .row.header-text>.intro-text {
+    z-index: 999;
+    position: absolute;
+    top: 300px;
+    text-align: center;
+    width: 100%;
+  }
 }
 

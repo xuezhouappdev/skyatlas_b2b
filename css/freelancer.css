@@ -729,6 +729,25 @@ nav2 {
 
 }
 
+.btn.btn-quote  {
+  background: #6A7E94;
+  padding: 8px 20px;
+  margin: 14px auto 0;
+  color: white;
+  text-transform: uppercase;
+  border-radius: 0;
+  display: inline-block;
+
+
+}
+
+.portfolio-modal.modal.fade button {
+  float: right;
+}
+
+.portfolio-modal.modal.fade button{
+
+}
 
 @media (max-width: 767px) {
   #header > div > div.row.header-text {

@@ -643,18 +643,21 @@ video {
 .row.header-text>.intro-text {
   z-index: 999;
   position: absolute;
-  top:500px;
+  bottom:100px;
   text-align: center;
   width: 100%;
+  font-weight: 500;
 
 }
 
 .row.header-text>.intro-text span {
   font-weight: 400;
-  font-size: 15px;
-  text-transform: uppercase;
+  font-size: 20px;
 
-  color: #222222;
+  text-shadow: 5px 5px 10px black;
+
+
+  color: #ffffff;
 }
 
 
@@ -692,6 +695,38 @@ video {
 #service .container ul li{
   list-style-type: disc;
   padding:0 10px;
+}
+
+
+.intro-text h1 {
+  color: white;
+  font-size: 60px;
+  text-shadow: 5px 5px 10px black;
+}
+
+nav2 {
+  box-shadow: 4px 4px 20px #191919;
+
+
+}
+
+.intro-text a {
+
+  background: #6A7E94;
+  padding: 8px 20px;
+  margin-top: 14px;
+  color: white;
+  text-transform: uppercase;
+  border-radius: 0;
+}
+
+
+.intro-text a:hover {
+
+  background: #36a094;
+
+  color: white;
+
 }
 
 

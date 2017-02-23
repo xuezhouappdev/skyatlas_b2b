@@ -85,6 +85,15 @@ hr.star-primary:after {
   margin: 0 auto;
 }
 
+
+
+#logo {
+
+  margin-top: 10px;
+  width: 280px;
+  margin-left: 20px;
+}
+
 header {
   text-align: center;
   background: rgb(155,184,214);
@@ -101,6 +110,7 @@ header .container {
 header img {
   display: block;
   margin: 0 auto 20px;
+
 }
 header .intro-text .name {
   display: block;
@@ -202,7 +212,7 @@ header .intro-text .skills {
   }
 }
 section {
-  padding: 40px 0 ;
+  padding: 20px 0 ;
 }
 section h2 {
   margin: 0;
@@ -665,6 +675,23 @@ video {
 
 .modal-content .container a{
 
+}
+
+
+
+
+#service .container ul {
+
+  text-align: left;
+  margin-left: 15px;
+  margin-top: 15px;
+  font-size: 14px;
+
+}
+
+#service .container ul li{
+  list-style-type: disc;
+  padding:0 10px;
 }
 
 

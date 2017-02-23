@@ -750,6 +750,7 @@ nav2 {
 }
 
 @media (max-width: 767px) {
+
   #header > div > div.row.header-text {
     display: none;
   }
@@ -778,7 +779,12 @@ nav2 {
 
 
   #service {
-    margin-top: 250px;
+    margin-top: 40px;
+  }
+
+
+  #header {
+     margin-bottom: 250px;
   }
 
   #myCarousel .thumbnail img {
@@ -798,6 +804,16 @@ nav2 {
   #contact > div.footer-above > div > div > div:nth-child(4) {
     padding-left: 15px;
     text-align: center;
+  }
+
+
+}
+
+
+@media (max-width: 991px) {
+
+  #service ul {
+    margin-left: 200px;
   }
 
 

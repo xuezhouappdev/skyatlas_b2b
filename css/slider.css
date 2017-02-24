@@ -69,6 +69,7 @@ ul.thumbnails {
     text-align: right;
     width: 100%;
 }
+
 .carousel-control{
     background: #666;
     border: 0px;
@@ -84,7 +85,63 @@ ul.thumbnails {
     width: 15px;
 }
 
+#testimony .item h4>span {
+    text-transform: none;
+}
 
+.carousel-control2 {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 15%;
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+    text-shadow: 0 1px 2px rgba(0,0,0,.6);
+    background-color: rgba(0,0,0,0);
+    filter: alpha(opacity=50);
+    opacity: .5;
+}
+
+
+.carousel-control2.right {
+
+    right:0;
+    left: auto;
+    top:90px;
+    color: #6A7E94;
+
+
+    background-repeat: repeat-x;
+
+}
+
+.carousel-control2.left {
+
+    left:0;
+    right: auto;
+    top:90px;
+    color: #6A7E94;
+    background-repeat: repeat-x;
+
+}
+
+section#slider {
+    margin-bottom: 50px;
+}
+
+
+
+
+#portfolioModal7 > div:nth-child(1) > div:nth-child(2) {
+    padding:10px 20px;
+
+
+
+    right: 0;
+
+}
 
 /* Mobile Only */
 @media (max-width: 767px) {

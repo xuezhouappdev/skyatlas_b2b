@@ -42,10 +42,8 @@ a.active {
 }
 h1,
 h2,
-h3,
-h4,
-h5,
-h6 {
+h3
+ {
 
   text-transform: uppercase;
   font-weight: 700;
@@ -285,6 +283,10 @@ section.success {
 }
 #portfolio * {
   z-index: 2;
+}
+
+#myCarousel2.carousel-inner.items h4 span{
+  margin-top: 20px;
 }
 
 
@@ -578,6 +580,9 @@ fieldset[disabled] .btn-success.active {
   font-size: 16px;
 }
 
+#promise i {
+  font-size: 30px;
+}
 
  .footer-above>.container>.row> .col-md-6:nth-child(4) {
   padding-bottom: 0px;
@@ -816,7 +821,17 @@ nav2 {
 }
 
 
-/*email*/
+section#testimony {
+  background-color: #e6e6e6;
+  text-transform: none;
+
+}
+
+
+
+
+
+  /*email*/
 
 h2{
   font-weight: bold;
@@ -925,6 +940,12 @@ span.verify {
   padding: 7px;
   display: none;
 }
+
+#portfolioModal7 p {
+  font-size: 16px;
+}
+
+
 
 
 @media (min-width: 767px)  and (max-width: 991px) {

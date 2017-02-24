@@ -17,7 +17,9 @@
   font-weight: bold;
 }
 
-
+ul.thumbnails {
+  padding-left: 0;
+}
 
 
 body {
@@ -755,6 +757,10 @@ nav2 {
     display: none;
   }
 
+  #service ul {
+    margin-left: 200px;
+  }
+
   #logo {
 
     margin-top: 18px;
@@ -810,13 +816,41 @@ nav2 {
 }
 
 
-@media (max-width: 991px) {
+@media (min-width: 767px)  and (max-width: 991px) {
 
   #service ul {
-    margin-left: 200px;
+    margin-left: 0px;
+
+    text-align: center;
   }
 
 
+  #service .container ul {
+
+    margin-left: 13%;
+    margin-top: 15px;
+    list-style: none;
+    margin-bottom: 80px;
+  }
+
+
+
+
+}
+
+
+@media (min-width: 1001px) {
+  #myCarousel ul li{
+    padding: 3px;
+    height: 220px;
+  }
+
+  #slider>.container {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+
+  }
 }
 
 @media (max-width:1200px ) {
@@ -827,5 +861,12 @@ nav2 {
     text-align: center;
     width: 100%;
   }
+
+
+
+
 }
+
+
+
 

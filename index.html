@@ -71,14 +71,15 @@
                             <a href="#portfolio">Featured Packages</a>
                         </li>
                         <li class="page-scroll">
-                            <a href="#about">About</a>
-                        </li>
-                        <li class="page-scroll">
-                            <a href="#photo">Photo</a>
-                        </li>
-                        <li class="page-scroll">
                             <a href="#contact">Contact</a>
                         </li>
+                        <li class="page-scroll">
+                            <a href="#">About</a>
+                        </li>
+                        <!--<li class="page-scroll">
+                            <a href="#photo">Photo</a>
+                        </li>-->
+
                     </ul>
                 </div>
                 <!-- /.navbar-collapse -->
@@ -594,7 +595,7 @@
 
                     <br>
                     <br>
-                    <div class="col-md-6">
+                    <div class="col-md-5">
 
                         <div id="map"></div>
                         <br>
@@ -604,16 +605,16 @@
 
                     </div>
 
-                    <div class="col-md-6">
+                    <div class="col-md-7">
 
-                        <h2 style="margin-top: 20px">Contact SkyAtlas</h2>
+                        <!--<h2 style="margin-top: 20px">Contact SkyAtlas</h2>
                         <p>Feel free to email us for quotes and program details!</p>
                         <p><a href="mailto:info@skyatlasintl.com">info@skyatlasintl.com</a>
                         </p>
 
                         <p style="font-size: 12px">Tel: (617)-577-7770<br>Fax: (617)-577-7771<br>Suite 3130, 222 Third Street<br>Cambridge, Massachusetts, USA 02142</p>
 
-                        <!--<ul class="list-inline banner-social-buttons">
+                        &lt;!&ndash;<ul class="list-inline banner-social-buttons">
                             <li>
                                 <a href="#" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Twitter</span></a>
                             </li>
@@ -623,7 +624,67 @@
                             <li>
                                 <a href="#" class="btn btn-default btn-lg"><i class="fa fa-google-plus fa-fw"></i> <span class="network-name">Google+</span></a>
                             </li>
-                        </ul>-->
+                        </ul>&ndash;&gt;-->
+
+
+
+                            <div class="errors">
+                            </div>
+                            <form action="<?=$_SERVER['PHP_SELF']?>" class="contact-form" method="POST" id="contactform">
+                                <div class="form-group">
+                                    <input type="text" name="username" id="username" class="username form-control" placeholder="Your Username" value="">
+
+                                    <span class="asterix">*</span>
+                                    <span class="cross">x</span>
+                                    <span class="verify"><i class="fa fa-check" aria-hidden="true"></i></span>
+                                    <div class="alert alert-danger custom-alert">
+                                        user must be more than 3 letter
+                                    </div>
+                                </div>
+
+
+                                <div class="form-group">
+                                    <input type="text" name="email" class=" email form-control" placeholder="Your Email" value="">
+
+                                    <span class="asterix">*</span>
+                                    <span class="cross">x</span>
+                                    <span class="verify"><i class="fa fa-check" aria-hidden="true"></i></span>
+                                    <div class="alert alert-danger custom-alert">
+                                        Email can not be empty
+                                    </div>
+                                </div>
+
+
+                                <div class="form-group">
+                                    <input type="text" name="subject" class="subject form-control" placeholder="Your subject" value="">
+
+                                    <span class="asterix">*</span>
+                                    <span class="cross">x</span>
+                                    <span class="verify"><i class="fa fa-check" aria-hidden="true"></i></span>
+                                    <div class="alert alert-danger custom-alert">
+                                        Subject can not be empty
+                                    </div>
+                                </div>
+
+
+                                <div class="form-group">
+                                    <textarea class=" message form-control" name="message" placeholder="Your Message" ></textarea>
+
+                                    <span class="asterix">*</span>
+                                    <span class="cross">x</span>
+                                    <span class="verify"><i class="fa fa-check" aria-hidden="true"></i></span>
+                                    <div class="alert alert-danger custom-alert">
+                                        message should be more than <b>10</b> characteres
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    <input type="submit" value="SEND" class="btn btn-success btn-block">
+
+                                </div>
+                            </form>
+
+
 
 
                     </div>
@@ -1142,7 +1203,7 @@
 
 
 
-    <!-- Contact Form JavaScript -->
+    <!-- Contact Form JavaScript -us->
     <script src="js/jqBootstrapValidation.js"></script>
     <script src="js/contact_me.js"></script>
 
@@ -1158,6 +1219,7 @@
     </script>
 
     <script src="js/contact_map.js"></script>
+    <script src="js/contact-form-js.js"></script>
 
     <!-- control appearance -->
     <script>

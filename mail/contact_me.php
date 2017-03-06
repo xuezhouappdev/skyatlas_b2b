@@ -2,7 +2,7 @@
 // Check for empty fields
 if(isset($_POST['username'])  		&&
    isset($_POST['email']) 		&&
-   isset($_POST['subject']) 		&&
+   isset($_POST['phone']) 		&&
    isset($_POST['message'])	)
    {
     /*echo "The data is stored\n";
@@ -12,10 +12,14 @@ if(isset($_POST['username'])  		&&
 	echo "\n".$_POST['message'];*/
 
 
-	$email_address = $_POST['email'];
+
 	$name = $_POST['username'];
+	$email_address = $_POST['email'];
+	$phone = $_POST['phone'];
 	$message = $_POST['message'];
-	$customer_subject = $_POST['subject'];
+
+	//echo $phone;
+
 
 
    }
@@ -44,7 +48,7 @@ $headers .= "Reply-To: $email_address";
 
 $to = "xuezhou9019@gmail.com";
 $subject = $email_subject;
-$email_body = "You have received a new message from a prospective client\n\n"."Here are the details:\n\nName: $name\n\nEmail: $email_address\n\nSubject: $customer_subject\n\nMessage:\n$message";
+$email_body = "You have received a new message from a prospective client\n\n"."Here are the details:\n\nName: $name\n\nEmail: $email_address\n\nPhone: $phone\n\nMessage:\n$message";
 $headers = "From: $from" . "\r\n";
 
 if(mail($to,$subject,$email_body,$headers)) {

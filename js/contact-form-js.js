@@ -12,7 +12,7 @@ $(function () {
 
     $(".username").blur(function() {
 
-        if($(this).val().length < 4){
+        if($(this).val().length < 3){
 
             $(this).css('border','1px solid #F00');
             $(this).parent().find('.custom-alert').fadeIn(300).end().find('.asterix').fadeOut(300).end().find('span.cross').fadeIn(300).end().find('span.verify').fadeOut(300);
@@ -82,13 +82,39 @@ $(function () {
 
 // submit form
 
-    $('.contact-form').submit(function(event) {
+    $('#send-btn').click(function(event) {
 
-        if(UserError === true || EmailError === true || SubError === true || MsgError === true){
+        if(UserError == true || EmailError == true || SubError == true || MsgError == true){
 
             event.preventDefault(); // prevent sending
             $('.username,.email,.subject,.message').blur();
         }
+
+        else {
+            $.post("./mail/contact_me.php", $(".contact-form").serializeArray(), function (data) {
+                $(".errors").html(data);
+            });
+
+
+            event.preventDefault();
+
+
+
+
+
+
+
+
+
+        }
+
+
+
+
+
+
+
+
 
 
     });

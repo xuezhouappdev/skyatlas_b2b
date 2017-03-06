@@ -974,7 +974,7 @@ span.verify {
 @media (min-width: 1001px) {
   #myCarousel ul li{
     padding: 3px;
-    height: 220px;
+    height: auto;
   }
 
   #slider>.container {

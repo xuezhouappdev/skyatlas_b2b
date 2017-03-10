@@ -156,7 +156,7 @@ header .intro-text .skills {
 }
 .navbar-custom .navbar-nav {
   letter-spacing: 1px;
-  font-size: 20px;
+  font-size: 15px;
 }
 .navbar-custom .navbar-nav li a {
   color: white;
@@ -708,7 +708,15 @@ video {
 .intro-text h1 {
   color: white;
   font-size: 60px;
-  text-shadow: 5px 5px 10px black;
+
+  background: rgba(0, 0, 0, 0.41);
+  display: inline-block;
+  padding: 10px 60px;
+}
+
+
+span.skills  {
+  display: block;
 }
 
 nav2 {
@@ -943,6 +951,15 @@ span.verify {
 
 #portfolioModal7 p {
   font-size: 16px;
+}
+
+
+
+
+.carousel.slide.grouppic a img {
+  height:220px;
+  padding: 2px;
+  width:100%;
 }
 
 

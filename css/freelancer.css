@@ -123,6 +123,8 @@ header .intro-text .skills {
   font-size: 1.25em;
   font-weight: 300;
 }
+
+
 @media (min-width: 768px) {
   header .container {
     padding-top: 200px;
@@ -288,6 +290,8 @@ section.success {
 #myCarousel2.carousel-inner.items h4 span{
   margin-top: 20px;
 }
+
+
 
 
 
@@ -637,6 +641,9 @@ video {
   height:auto;
   padding-top: 10px;
 }
+
+
+
 
 .header-container {
   width: 100%;

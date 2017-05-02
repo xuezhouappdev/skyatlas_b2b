@@ -37,7 +37,7 @@ a:hover,
 a:focus,
 a:active,
 a.active {
-  color: rgb(155,184,214);
+  color: rgb(209, 209, 209);
   outline: none;
 }
 h1,
@@ -89,7 +89,7 @@ hr.star-primary:after {
 
 #logo {
 
-  margin-top: 10px;
+  margin-top: 2px;
   width: 280px;
   margin-left: 20px;
 }
@@ -138,7 +138,7 @@ header .intro-text .skills {
   }
 }
 .navbar-custom {
-  background: #3D4855;
+  background: #00A99D;
   font-family: 'ProximaNova-Light', sans-serif;
   text-transform: uppercase;
   font-weight: 800;
@@ -164,7 +164,7 @@ header .intro-text .skills {
   color: white;
 }
 .navbar-custom .navbar-nav li a:hover {
-  color: rgb(155,184,214);
+  color: rgb(29, 29, 29);
   outline: none;
 }
 .navbar-custom .navbar-nav li a:focus,
@@ -173,13 +173,13 @@ header .intro-text .skills {
 }
 .navbar-custom .navbar-nav li.active a {
   color: white;
-  background: rgb(155,184,214);
+  background: #00a99d;
 }
 .navbar-custom .navbar-nav li.active a:hover,
 .navbar-custom .navbar-nav li.active a:focus,
 .navbar-custom .navbar-nav li.active a:active {
   color: white;
-  background: rgb(155,184,214);
+  background: #00a99d;
 }
 .navbar-custom .navbar-toggle {
   color: white;
@@ -229,7 +229,7 @@ section hr:nth-child(2){
 
 
 section.success {
-  background: rgb(155,184,214);
+  background: #00a99d;
   color: white;
 }
 @media (max-width: 767px) {
@@ -252,7 +252,7 @@ section.success {
   margin: 0 auto;
 }
 #portfolio .portfolio-item .portfolio-link .caption {
-  background: rgb(155,184,214);
+  background: #00a99d;
   position: absolute;
   width: 100%;
   height: 100%;
@@ -357,14 +357,14 @@ footer h3 {
 }
 footer .footer-above {
   padding-top: 50px;
-  background-color: #6A7E94;
+  background-color: #00a99d;
 }
 footer .footer-col {
   margin-bottom: 50px;
 }
 footer .footer-below {
   padding: 25px 0;
-  background-color: #3D4855;
+  background-color: #00a99d;
 }
 .btn-outline {
   color: white;
@@ -565,7 +565,7 @@ fieldset[disabled] .btn-success.active {
 #service i {
   font-size: 80px;
   margin: 0 auto 20px;
-  color:rgb(155,184,214);
+  color:#00a99d;
 
 }
 
@@ -657,7 +657,7 @@ video {
 .row.header-text>.intro-text {
   z-index: 999;
   position: absolute;
-  bottom:100px;
+  bottom:15%;
   text-align: center;
   width: 100%;
   font-weight: 500;
@@ -727,14 +727,14 @@ span.skills  {
 }
 
 nav2 {
-  box-shadow: 4px 4px 20px #191919;
+  box-shadow: 1px 1px 1px #6e6e6e;
 
 
 }
 
 .intro-text a {
 
-  background: #6A7E94;
+  background: #00A99D;
   padding: 8px 20px;
   margin-top: 14px;
   color: white;
@@ -745,7 +745,7 @@ nav2 {
 
 .intro-text a:hover {
 
-  background: #36a094;
+  background: #00cabc;
 
   color: white;
 
@@ -964,7 +964,7 @@ span.verify {
 
 
 .carousel.slide.grouppic a img {
-  height:220px;
+
   padding: 2px;
   width:100%;
 }

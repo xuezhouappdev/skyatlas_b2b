@@ -75,7 +75,7 @@ hr.star-light:after {
   color: white;
 }
 hr.star-primary {
-  border-color: #2C3E50;
+  border-color: #4EA69D;
 }
 hr.star-primary:after {
   background-color: white;
@@ -506,7 +506,7 @@ fieldset[disabled] .btn-success.active {
   box-shadow: none;
   border: none;
   min-height: 100%;
-  padding: 100px 0;
+  padding: 20px 0 100px;
   text-align:justify;
 }
 .portfolio-modal .modal-content h2 {
@@ -525,7 +525,7 @@ fieldset[disabled] .btn-success.active {
   width: 75px;
   height: 75px;
   background-color: transparent;
-  top: 25px;
+  top: -575px;
   right: 25px;
   cursor: pointer;
 }
